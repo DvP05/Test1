@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+  int a,b,c;
+  printf("Enter the number for the variable a:");
+  scanf("%d",a);
+  printf("Enter the number for the variable b:");
+  scanf("%d",b);
+  c=a+b;
+  printf("%d+%d=%d",a,b,c);
+}
